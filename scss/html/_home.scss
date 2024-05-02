@@ -1,0 +1,41 @@
+/*voy a trabajar los estilos de index.html*/
+
+//voy a trabajar los estilos de index.html
+
+main{
+    #ilnyc{
+        width: 80px;
+    }
+    .quienessomos{
+        margin: 0 50px;
+        padding: 30px;
+        gap: 50px;
+    }
+    //ajusto la foto grupal para que quede bien en la version mobile
+    .fotogrupal {
+        margin: 0 70px;
+        img{
+            width: 80%;
+        }
+
+    }
+
+    .fotogrupal2{
+        display: none;
+    }
+    
+    //media query para desktop
+    @media screen and (min-width: 1024px){
+        .quienessomos{
+            display: flex;
+        }
+        .fotogrupal2{
+            display: block;
+        }
+        .fotogrupal{
+            display: none;
+        }
+        
+    }
+}
+

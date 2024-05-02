@@ -1,0 +1,26 @@
+@import "../utilidades/variables";
+
+
+main{
+    .itinerarios{
+        h3{
+            background-color: $color-ppal;
+            font-style: $font-sec;
+        }
+    }
+    .itinerariodos , .itinerariocuatro {
+        display: flex;
+        gap: 50px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    //media query para ocultar las fotos en formato mobile
+    @media screen and (max-width: 600px){
+        .foto2dias , .foto4dias {
+            height: 100px;
+        }
+        .itinerariodos , .itinerariocuatro{
+            display: block;
+        }
+    }
+}

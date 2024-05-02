@@ -1,0 +1,18 @@
+main{
+    .emblematicos{
+        img{
+            width: 30%;
+        }
+        margin-bottom: 50px;
+    }
+    //media query para desktop
+    @media screen and (min-width: 1024px){
+        .divemblematicos{
+            display: flex;
+            gap: 50px;
+            margin-right: 50px;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+}

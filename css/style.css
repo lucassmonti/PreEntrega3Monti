@@ -1,0 +1,108 @@
+/*reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  margin: 20px;
+}
+
+footer {
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+/*voy a trabajar los estilos de index.html*/
+main #ilnyc {
+  width: 80px;
+}
+main .quienessomos {
+  margin: 0 50px;
+  padding: 30px;
+  gap: 50px;
+}
+main .fotogrupal {
+  margin: 0 70px;
+}
+main .fotogrupal img {
+  width: 80%;
+}
+main .fotogrupal2 {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  main .quienessomos {
+    display: flex;
+  }
+  main .fotogrupal2 {
+    display: block;
+  }
+  main .fotogrupal {
+    display: none;
+  }
+}
+
+main .itinerarios h3 {
+  background-color: #F8F9FA;
+  font-style: italic;
+}
+main .itinerariodos, main .itinerariocuatro {
+  display: flex;
+  gap: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+@media screen and (max-width: 600px) {
+  main .foto2dias, main .foto4dias {
+    height: 100px;
+  }
+  main .itinerariodos, main .itinerariocuatro {
+    display: block;
+  }
+}
+
+main .emblematicos {
+  margin-bottom: 50px;
+}
+main .emblematicos img {
+  width: 30%;
+}
+@media screen and (min-width: 1024px) {
+  main .divemblematicos {
+    display: flex;
+    gap: 50px;
+    margin-right: 50px;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+main iframe {
+  display: none;
+}
+main .mrkhao, main .halal, main .amorloco, main .birria {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: grid;
+  justify-content: center;
+  gap: 20px;
+  grid-template-columns: auto auto;
+  grid-template-rows: 1fr;
+}
+main .mrkhao img, main .halal img, main .amorloco img, main .birria img {
+  width: 100%;
+  height: 50vh;
+}
+@media screen and (min-width: 1024px) {
+  main iframe {
+    display: block;
+  }
+}
+main .gastrotitulo {
+  background-color: #F8F9FA;
+  font-style: italic;
+}
+
+/*# sourceMappingURL=style.css.map */

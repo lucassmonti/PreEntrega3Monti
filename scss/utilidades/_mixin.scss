@@ -1,0 +1,9 @@
+@mixin grid{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    justify-content: center;
+    gap: 20px;
+    grid-template-columns: auto auto;
+    grid-template-rows: 1fr;
+}

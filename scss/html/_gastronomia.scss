@@ -1,0 +1,30 @@
+@import "../utilidades/variables";
+@import "../utilidades/mixin";
+
+
+
+main{
+    iframe{
+        display: none;
+    }
+    .mrkhao , .halal , .amorloco , .birria{
+        img{
+            width: 100%;
+            height: 50vh;
+        }
+        @include grid
+    }
+    //media query para tablet & Desktop
+    @media screen and (min-width: 1024px){
+        iframe{
+            display: block;
+        }
+    }
+    .gastrotitulo{
+        background-color: $color-ppal;
+        font-style: $font-sec;
+    }
+ 
+
+}
+
